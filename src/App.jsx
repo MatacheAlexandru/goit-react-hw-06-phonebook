@@ -4,7 +4,7 @@ import ContactList from "./components/ContactList";
 import Filter from "./components/Filter";
 import { useSelector, useDispatch } from "react-redux";
 import { addContact, deleteContact, changeFilter } from "./redux/contactsSlice";
-import styles from "./App.module.css";
+import styles from "./App.module.css"; // stilizare pentru App.jsx
 
 const App = () => {
   const contacts = useSelector((state) => state.contacts);
