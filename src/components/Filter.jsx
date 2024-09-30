@@ -6,7 +6,6 @@ const Filter = ({ filter, onChangeFilter }) => (
   <label className={styles.filterLabel}>
     Find contacts by name
     <input
-      placeholder="Search for contacts"
       type="text"
       value={filter}
       onChange={(e) => onChangeFilter(e.target.value)}
